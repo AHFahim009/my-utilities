@@ -1,0 +1,6 @@
+1. Live server
+2. React Extensions pack
+3. Community Material Theme
+4. Code spell checker
+5. Prettier
+6. Vs code icons

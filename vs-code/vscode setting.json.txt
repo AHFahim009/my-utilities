@@ -1,0 +1,50 @@
+{
+  // editor
+  "editor.fontSize": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.mouseWheelZoom": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // "[javascript]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.defaultFormatter": null
+  // },
+  // "[javascriptreact]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.defaultFormatter": null
+  // },
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true,
+  //   "source.fixAll.tslint": true,
+  //   "source.organizeImports": true
+  // },
+  // "eslint.alwaysShowStatus": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "editor.linkedEditing": "on",
+  "workbench.sideBar.location": "right",
+  "editor.guides.bracketPairsHorizontal": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.guides.bracketPairs": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "explorer.autoReveal": false
+}
