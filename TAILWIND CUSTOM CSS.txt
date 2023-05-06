@@ -2,8 +2,9 @@
 important link:
 https://youtu.be/5pdidIl5HK8
 ---------------------------------------------------------------------
-.my-header{
-    @apply sm:max-w-xl md:max-w-full lg:max-w-screen-xl mx-auto  px-4 py-16 md:px-24 lg:px-8 lg:py-20
+.header-container {
+  @apply sm:max-w-xl md:max-w-full lg:max-w-screen-xl mx-auto px-4 py-2  md:px-24 lg:px-0 lg:py-2;
+}
 ----------------------------------------------------------------------
 
  .my-container{
