@@ -5,7 +5,8 @@ const Register = () => {
         {/* <h1 className="text-center text-4xl mb-6">Please Register</h1> */}
         <div className="flex justify-center">
           <div className=" w-[400px]">
-            <form className="bg-gray-100 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div className="bg-gray-100 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <form onSubmit={handleSignUp}>
               <div className="mb-4">
                 <label
                   className="block text-gray-700 text-xl font-bold mb-2"
@@ -64,6 +65,7 @@ const Register = () => {
                   placeholder="password"
                   required
                 />
+                {/* display error success massage */}
                 <p className="text-red-500 text-xs italic"></p>
                 <p className="text-red-500 text-xs italic"></p>
               </div>
@@ -85,6 +87,7 @@ const Register = () => {
                 </p>
               </div>
             </form>
+          </div>
           </div>
         </div>
       </div>
